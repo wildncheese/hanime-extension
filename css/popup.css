@@ -1,0 +1,50 @@
+body {
+  font-family: Roboto, Tahoma, Arial, sans-serif;
+  width: 400px;
+  font-size: 12px;
+  background: #303030;
+  color: white;
+}
+
+span {
+  border-left: 8px solid #f3c669;
+  padding-left: 2px;
+  background-color: #303030;
+}
+
+.btn-uq {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f3c669;
+  color: white;
+}
+
+.btn {
+  border: none;
+  background: none;
+  color: white;
+}
+
+.btn:hover {
+  border: none;
+  background: none;
+  color: #f3c669;
+}
+
+.icon-controls {
+  margin-left: 25px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.span-controls {
+  font-family: Roboto, Tahoma, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  padding-left: 2px;
+}
+
+.alert-info {
+  background-color: #303030;
+  border-color: #303030;
+}

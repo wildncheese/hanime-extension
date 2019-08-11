@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/popup.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <title>Version:</title>
+  </head>
+  <body>
+    <div class="container" style="flex-direction:row">
+        <div class="alert alert-info" role="alert" style="display: none" id="controlss">
+          <div class="card">
+            <h5 class="card-header">
+              <i class="fas fa-keyboard"></i> Keyboard Controls
+            </h5>
+            <div class="card-body">
+              <p class="card-text">
+                <i class="fas fa-arrow-square-left"></i>
+                Left Arrow: Move to Previous image
+              </p>
+              <p class="card-text">
+                <i class="fas fa-arrow-square-right"></i>
+                Right Arrow: Move to Next iamge
+              </p>
+              <p class="card-text">
+                <i class="fas fa-arrow-square-up"></i>
+                Up Arrow: Move to Next page
+              </p>
+              <p class="card-text">
+                <i class="fas fa-arrow-square-down"></i>
+                Down Arrow: Move to Previous page
+              </p>
+              <p class="card-text">
+                  <i class="fas fa-keyboard"></i>
+                  o Key: To open and close modal view!
+                </p>
+              <p class="card-text">
+                <svg
+                  translate="0,0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M18 9v4H6V9H4v6h16V9z" />
+                </svg>
+                Spacebar: To toggle Carousel - cycle/pause
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <strong><span id="popup-title"></span></strong>
+      <div class="row">
+        <div class="col-sm">
+          <button class="btn btn-sm btn-toggle">Toggle Modal</button>
+        </div>
+        <div class="col-sm">
+          <button class="btn btn-sm btn-pause">Toggle Carousel</button>
+          <span class="info-isPaused">Currently: Unknown..</span>
+        </div>
+        <div class="col-sm">
+          <button class="btn btn-sm btn-prev-page">Prev Page</button>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col">
+              <button class="btn btn-sm btn-next-page">Next page</button>
+            </div>
+            <div class="col">
+              <button class=" btn btn-sm btn-options">
+                <i class="fas fa-info-circle"></i>
+                <span class="span-controls">Options</span>
+              </button>
+            </div>
+            <div class="col">
+                <em class="icon-controls">
+                    <button class=" btn btn-sm btn-controls">
+                      <i class="fas fa-info-circle"></i>
+                      <span class="span-controls">Controls</span>
+                    </button>
+                  </em>
+            </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popup.js"></script>
+  </body>
+</html>

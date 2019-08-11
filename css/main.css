@@ -1,0 +1,21 @@
+.carousel {
+  max-height: 900px;
+  height: 100% !important;
+  box-shadow: none !important;
+}
+
+.carousel img {
+  object-fit: contain !important;
+  height: 900px !important;
+  max-height: 900px;
+}
+
+.modal-content {
+  background-color: transparent;
+  height: 100% !important;
+  border-color: transparent !important;
+}
+
+.modal-dialog {
+  height: 1000px !important;
+}
