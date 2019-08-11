@@ -1,5 +1,8 @@
 # hanime-extension
-An extension for hanime.tv. 
+An extension for hanime.tv/browse/images
+
+
+**This does not currently work with .mp4s**
 
 This was created so i could view the many images on hamine with ease and i thought maybe someone else would also like to use it.. 
 Hope you enjoy ^-^
